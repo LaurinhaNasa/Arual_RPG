@@ -1,0 +1,315 @@
+@font-face {
+    font-family: RING;
+    src: url(../Fontes/RINGM___.TTF);
+}
+
+@font-face {
+    font-family: godofwar;
+    src: url(../Fontes/GODOFWAR.TTF);
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../Fontes/Cinzel-Regular.otf);
+}
+
+@font-face {
+    font-family: DIMIS;
+    src: url(../Fontes/DIMIS___.TTF);
+}
+
+@font-face {
+    font-family: Gemini;
+    src: url(../Fontes/Gemini_Moon.otf);
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Imagem/dados-de-rpg.jpg');
+}
+
+figure{
+    text-align: center;
+}
+
+#legenda{
+    margin-top: 0px;
+    text-align: center;
+    font-family: abaddon;
+    font-size: 25px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.884);
+    display: grid;
+    grid-template-rows: 50px 1fr 10px;
+    grid-template-columns: 200px 100px 100px 100px 100px 400px 250px 200px 200px;
+} 
+
+.botaomenu{
+    color: rgba(172, 177, 167, 0.822);
+}
+
+.botaomenu:hover{
+    color: white;
+}
+
+.item1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 195px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 80px;
+    width: 110px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item2{
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item3{
+    margin-top: 20px;
+    margin-left: 125px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item4{
+    margin-top: 20px;
+    margin-left: 160px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item5{
+    margin-top: 20px;
+    margin-left: 160px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item6{
+    margin-right: 0px;
+    height: 140px;
+    width: 190px;
+    background-color: rgba(247, 247, 178, 0.938);
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.item7{
+    margin-top: 15px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item8{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 150px;
+    margin-top: 45px;
+}
+
+.item9{
+    grid-column-start: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.login{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border: 2px solid rgba(153, 149, 149, 0.527);
+    overflow: hidden;
+    transition: 1s all ease;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+.login::before{
+    background: white;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.login::before{
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.login:hover::before{
+    height: 380%;
+}
+
+#perso{
+    font-size: 50px;
+    margin-left: 750px;
+    color: white;
+    font-style: bolder;
+    margin-top: 50px;
+    font-family: godofwar;
+}
+
+#perso2{
+    font-size: 15px;
+    margin-left: 780px;
+    color: white;
+    margin-top: 10px;
+    font-family: Cinzel;
+}
+
+.container{
+    margin-top: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+a{
+    display: flex;
+    font-size: 25px;
+    color: white; 
+    margin-top: 30px;
+    margin-right: 120px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+h3{
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    font-style: normal;
+    margin-right: 200px;
+}
+
+#chelfast{
+    margin-left: 130px;
+}
+
+#item1{
+    margin-right: 150px;
+    margin-top: 70px;
+    border-top: 2px solid rgba(116, 107, 107, 0.733);
+    border-bottom: 2px solid rgba(116, 107, 107, 0.733);
+    height: 220px;
+    width: 700px;
+}
+
+.container h2{
+    font-family: DIMIS;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.subitem{
+    float: right;
+    margin-right: 100px;
+    font-family: RING;
+    font-size: 20px;
+    color: rgb(61, 59, 59);
+}
+
+#gif{
+    margin-top: 30px;
+    height: 780px;
+    width: 350px;
+    margin-right: 80px;
+}
+
+#item2{
+    margin-top: 20px;
+}
+
+#item2 h2{
+    font-size: 50px;
+    font-family: gemini;
+    margin-left: 300px;
+}
+
+#item2 h3{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#top1{
+    display: flex;
+    flex-direction: column;
+}
+
+
